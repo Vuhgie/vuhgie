@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marketing Portfolio Resume</title>
+  <title>Vuyisile Mosethe's Resume</title>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     * {
@@ -46,13 +46,15 @@
     }
 
     .screen-selector {
-      display: none;
-      flex-direction: column;
+      display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      text-align: center;
+      text-align: left;
       animation: fadeIn 1.5s ease forwards;
+      padding: 2rem;
+      gap: 4rem;
+      flex-wrap: wrap;
     }
 
     .screen-selector h1 {
@@ -167,76 +169,85 @@
   </div>
 
   <div class="screen-selector" id="selector">
-    <h1>Welcome to My Space</h1>
-    <button onclick="alert('Coming Soon!')">Resume/CV</button>
-    <button onclick="alert('Blog Coming Soon!')">Visit Blog</button>
+    <!-- About Me Section -->
+    <div style="max-width: 400px;">
+      <h2 style="color: #ef233c; font-size: 1.8rem; margin-bottom: 1rem;">About Me</h2>
+      <p style="color: #ccc; font-size: 1rem; line-height: 1.6;">
+        I'm Vuyisile V. Mosethe, a Lesotho-based marketing professional passionate about strategy, creativity and digital growth. I have a background in operations management, marketing management, administration, sales, logistics and a knack for innovation, I help businesses grow smarter.I pay attention to detail, work well under pressure and bring positive energy into every team I join.
+      </p>
+    </div>
+
+    <!-- Welcome Area -->
+    <div>
+      <h1>Welcome to My Space</h1>
+      <a href="vuhgie.html" target="_blank"><button>Resume/CV</button></a>
+      <a href="https://vuhgie.weebly.com" target="_blank"><button>Visit Blog</button></a>
+    </div>
   </div>
 
   <div id="portfolio" style="display: none">
     <header>
-        <img src="your-photo.jpg" alt="Your Photo">
-        <h1>Hi, I'm a Marketing Professional</h1>
-        <p>Creative | Strategic | Results-Driven</p>
-      </header>
-    
-      <section class="section" id="summary">
-        <h2 class="section-title">Professional Summary</h2>
-        <div class="content">
-          <p>Insert your professional summary here — emphasize strategy, creativity, and your ability to drive measurable results in marketing.</p>
-        </div>
-      </section>
-    
-      <section class="section" id="education">
-        <h2 class="section-title">Education</h2>
-        <div class="content">
-          <p>Include your degrees, institutions, and relevant courses.</p>
-        </div>
-      </section>
-    
-      <section class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="content">
-          <p>Highlight marketing roles, campaigns you led, and tangible outcomes.</p>
-        </div>
-      </section>
-    
-      <section class="section" id="certificates">
-        <h2 class="section-title">Certificates</h2>
-        <div class="content">
-          <p>Show off your certifications in Google Analytics, SEO, social media marketing, etc.</p>
-        </div>
-      </section>
-    
-      <section class="section" id="skills">
-        <h2 class="section-title">Skills</h2>
-        <div class="content">
-          <p>List both soft and technical skills — from communication to marketing automation tools.</p>
-        </div>
-      </section>
-    
-      <section class="section" id="languages">
-        <h2 class="section-title">Languages</h2>
-        <div class="content">
-          <p>Include the languages you speak and proficiency levels.</p>
-        </div>
-      </section>
-    
-      <section class="section" id="leadership">
-        <h2 class="section-title">Leadership & Accomplishments</h2>
-        <div class="content">
-          <p>List your marketing achievements, campaigns led, awards, and recognitions.</p>
-        </div>
-      </section>
-    
-      <section class="section" id="references">
-        <h2 class="section-title">References</h2>
-        <div class="content">
-          <p>Available upon request or list names and contact details.</p>
-        </div>
-      </section>
-    </body>
-    </html>
-    
+      <img src="your-photo.jpg" alt="Your Photo">
+      <h1>Hi, I'm a Marketing Professional</h1>
+      <p>Creative | Strategic | Results-Driven</p>
+    </header>
+
+    <section class="section" id="summary">
+      <h2 class="section-title">Professional Summary</h2>
+      <div class="content">
+        <p>Insert your professional summary here — emphasize strategy, creativity, and your ability to drive measurable results in marketing.</p>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="content">
+        <p>Include your degrees, institutions, and relevant courses.</p>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="content">
+        <p>Highlight marketing roles, campaigns you led, and tangible outcomes.</p>
+      </div>
+    </section>
+
+    <section class="section" id="certificates">
+      <h2 class="section-title">Certificates</h2>
+      <div class="content">
+        <p>Show off your certifications in Google Analytics, SEO, social media marketing, etc.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="content">
+        <p>List both soft and technical skills — from communication to marketing automation tools.</p>
+      </div>
+    </section>
+
+    <section class="section" id="languages">
+      <h2 class="section-title">Languages</h2>
+      <div class="content">
+        <p>Include the languages you speak and proficiency levels.</p>
+      </div>
+    </section>
+
+    <section class="section" id="leadership">
+      <h2 class="section-title">Leadership & Accomplishments</h2>
+      <div class="content">
+        <p>List your marketing achievements, campaigns led, awards, and recognitions.</p>
+      </div>
+    </section>
+
+    <section class="section" id="references">
+      <h2 class="section-title">References</h2>
+      <div class="content">
+        <p>Available upon request or list names and contact details.</p>
+      </div>
+    </section>
+  </div>
 
   <script>
     window.onload = () => {
