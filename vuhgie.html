@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuyisile V. Mosethe - Professional CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2A4B7C;
+            --secondary: #3AB795;
+            --accent: #FF6B6B;
+            --dark: #1A1A2E;
+            --light: #F5F5F5;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            color: white;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin: 2rem 0;
+        }
+
+        /* Sections */
+        .section {
+            margin: 3rem 0;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--accent);
+            position: absolute;
+            left: -1rem;
+        }
+
+        /* Experience Timeline */
+        .timeline-item {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border-left: 3px solid var(--secondary);
+        }
+
+        .company {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* Certifications Grid */
+        .cert-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Language Skills */
+        .lang-container {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Vuyisile V. Mosethe</h1>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> Vuyisilemosethe@yahoo.com</p>
+            <p><i class="fas fa-phone"></i> +266 62900114 / 58825549</p>
+            <p><i class="fas fa-map-marker-alt"></i> Likhutlong Phase 1 (Ha Tanka), Mohale's Hoek 800, Lesotho</p>
+            <p><i class="fab fa-linkedin"></i> linkedin.com/in/vuyisilemosethe</p>
+            <p><i class="fas fa-globe"></i> www.vuhgie.weebly.com/who-is-vuhgie.html</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Professional Summary -->
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <p>I am a service-driven professional with a background in logistics, operations, administration, sales and marketing. I enjoy solving problems, making operations smoother and making sure customers leave satisfied. I pay attention to detail, work well under pressure and bring positive energy into every team I join.</p>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
+            <h2>Education</h2>
+            <h3>Master’s Degree in Business Administration (MBA) | Siksha ‘O’ Anusandhan University</h3>
+            <ul>
+                <li>Specialization: Operations Management and Marketing Management (Dual Specialization)</li>
+                <li>CGPA: 8.23</li>
+
+            <h3>Bachelor's of Commerce in Marketing | The Natoinal University of Lesotho</h3>
+                <ul>
+                    <li>Specialization: Marketing</li>
+                    <li>2,2</li>
+        <h3>Diploma in Rural Marketing | UDERMY</h3>
+                
+        </section>
+
+        <!-- Certifications -->
+        <section class="section">
+            <h2>Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <h4>White Belt Six Sigma (2024)</h4>
+                    <p>Process Improvement and Operational Efficiency</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Inventory Management (2024)</h4>
+                    <p>HP Life Online Course</p>
+                </div>
+                <div class="cert-item">
+                    <h4>Digital Marketing & E-commerce (2022)</h4>
+                    <p>Coursera</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section class="section">
+            <h2>Publications</h2>
+            <div class="publication">
+                <h3>A Study on Mobile and Digital Payment Ecosystem in India: Insights and Implications for The African Market</h3>
+                <p>Co-authored research published in: <em>The Journal of Global Business Review in Management and Innovation (GBRMI)</em></p>
+                <p>Proposed low-cost and customer-centric solutions to drive financial inclusion in Africa.</p>
+            </div>
+        </section>
+
+       <!-- Experience -->
+<section class="section">
+    <h2>Experience</h2>
+
+    <div class="timeline-item">
+        <h3>1. Operations & Marketing Assistant Manager</h3>
+        <p class="company">Mosethe Transportation, Mohale’s Hoek, Lesotho</p>
+        <p class="date">July 2022 – Present</p>
+        <ul>
+            <li>Managing and supervising driving staff and preparing routes/trips.</li>
+            <li>Engineered a cross-sell strategy that grew transport contract renewals.</li>
+            <li>Designed and managed Facebook/WhatsApp campaigns, walk-in campaigns, Google AdSense, and Meta ads; created flyers and taxi vehicle stickers.</li>
+        </ul>
+    </div>
+
+    <div class="timeline-item">
+        <h3>2. Operations Intern</h3>
+        <p class="company">Nestlé India, Gurugram, Haryana, India</p>
+        <p class="date">September 2023 – November 2023</p>
+        <ul>
+            <li>Assisted in designing and implementing quality-management systems and SOPs across three distribution hubs.</li>
+            <li>Analyzed supply chain workflows and proposed lean improvements to meet international KPIs and compliance standards.</li>
+        </ul>
+    </div>
+
+    <div class="timeline-item">
+        <h3>3. Research Assistant Intern</h3>
+        <p class="company">Allied Analytics, Pune, India</p>
+        <p class="date">May 2023 – August 2023</p>
+        <ul>
+            <li>Conducted financial and market data analysis for banking and fintech clients, identifying customer behavior trends.</li>
+            <li>Maintained high-quality databases and delivered actionable insights, earning an 82% performance rating.</li>
+        </ul>
+    </div>
+
+    <div class="timeline-item">
+        <h3>4. Volunteer Tutor & Marketing Assistant</h3>
+        <p class="company">Majantja Remedial High School, Mohale’s Hoek, Lesotho</p>
+        <p class="date">January 2025 – Present</p>
+        <ul>
+            <li>Tutored students in Business Studies, significantly improving their academic performance.</li>
+            <li>Designed promotional materials to enhance community engagement and boost school visibility.</li>
+        </ul>
+    </div>
+
+    <div class="timeline-item">
+        <h3>5. Sales Consultant</h3>
+        <p class="company">African Clean Energy, Maseru, Lesotho</p>
+        <p class="date">August 2022 – September 2022</p>
+        <ul>
+            <li>Promoted and sold clean energy products across rural and urban areas, consistently exceeding monthly sales targets.</li>
+            <li>Led product demonstrations and adapted sales strategy based on proactive market research and customer needs.</li>
+        </ul>
+    </div>
+
+    <div class="timeline-item">
+        <h3>6. Freelance Marketing Consultant</h3>
+        <p class="company">Various SMEs, Lesotho</p>
+        <p class="date">August 2023 – Present</p>
+        <ul>
+            <li>Designed marketing flyers and managed Meta ad campaigns for startups and resellers in fashion, farming, gadgets, and logistics.</li>
+        </ul>
+    </div>
+</section>
+
+
+            <!-- All other experience items added similarly -->
+            
+        </section>
+
+        <!-- Key Competencies -->
+        <section class="section">
+            <h2>Key Competencies and Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-column">
+                    <ul>
+                        <li>Organisational skills</li>
+                        <li>Analytical skills</li>
+                        <li>Communication skills (Verbal and Written)</li>
+                        <li>Leadership skills</li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <ul>
+                        <li>Time Management and Multi-tasking</li>
+                        <li>Problem Solving skills</li>
+                        <li>Microsoft Office Suite (Excel, Word, PowerPoint, VBA)</li>
+                        <li>Networking skills</li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <ul>
+                        <li>Strong Interpersonal skills</li>
+                        <li>Ability to work under pressure</li>
+                        <li>Adaptability and Flexibility</li>
+                        <li>Workplace Safety Compliance</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- License & Languages -->
+        <section class="section">
+            <div class="two-column">
+                <div>
+                    <h2>License</h2>
+                    <p>Driving: Code B and Public Driving license with over 7 years</p>
+                </div>
+                <div>
+                    <h2>Languages</h2>
+                    <div class="lang-container">
+                        <ul>
+                            <li>English (Fluent)</li>
+                            <li>Sesotho (Native)</li>
+                            <li>Xhosa (Basic)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership -->
+        <section class="section">
+            <h2>Leadership & Accomplishments</h2>
+            <div class="achievement">
+                <h3>Freelanced as a marketing consultant for local SMEs</h3>
+                <p>Designed flyers and managing Facebook and Meta Ads campaigns for startups, resellers in clothing, agriculture, gadgets and accessory devices and logistics.</p>
+            </div>
+            <div class="achievement">
+                <h3>Winner: 2nd Position Nationwide, Lesotho National Science Competition | 2014</h3>
+                <p>Developed a pioneering app prototype to streamline IGCSE/JC grading of compositional and multiple-choice questions, introducing interest in machine learning and AI concepts at a national level from a young age.</p>
+            </div>
+            <div class="achievement">
+                <h3>Project Lead, SOP Development | Nestle India</h3>
+                <p>Led a team (of interns) to establish Standard Operating Procedures for operations, optimizing process efficiency and achieving workflow improvement.</p>
+            </div>
+            <div class="achievement">
+                <h3>E-commerce with Social Media Marketing</h3>
+                <p>Launched an e-commerce venture reselling iPhones, harnessing social media marketing to drive sales. Subsequently pivoted to niche Android flagship devices, deploying digital strategies to engage a targeted audience and enhance brand visibility. Developed and coded the entire website: <a href="https://vuhgie.pages.dev">vuhgie.pages.dev</a></p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Add any required interactivity here
+    </script>
+</body>
+</html>
