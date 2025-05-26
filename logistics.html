@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuhgie Logistics - Reliable Transport Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.png" alt="Vuhgie Logistics Logo" style="height: 90px;">
+                    <span>Vuhgie Cabs</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-box-open"></i> Services</a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </nav>
+    
+    <header class="hero">
+        <div class="hero-content">
+            <img src="logo.png" alt="Vuhgie Logistics Logo" style="height: 90px;">
+            <h1>Your Reliable Logistics Partner</h1>
+            <p>Safe, Fast, and Affordable Transportation Solutions</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="booking-card">
+            <div class="card-header">
+                <h2><i class="fas fa-calendar-alt"></i> Book Your Service</h2>
+                <div class="service-switch">
+                    <button class="active" data-service="car">Car Booking</button>
+                    <button data-service="parcel">Parcel Service</button>
+                </div>
+            </div>
+
+            <form id="bookingForm" class="booking-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label><i class="fas fa-map-marker-alt"></i> From</label>
+                        <div class="input-field">
+                            <input type="text" value="Mohale's Hoek" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label><i class="fas fa-flag-checkered"></i> To</label>
+                        <div class="input-field">
+                            <select id="destination" required>
+                                <option value="">Select Destination</option>
+                                <option value="johannesburg">Johannesburg</option>
+                                <option value="pretoria">Pretoria</option>
+                                <option value="bloemfontein">Bloemfontein</option>
+                            </select>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label><i class="fas fa-calendar-day"></i> Travel Date</label>
+                        <div class="input-field">
+                            <input type="date" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group" id="seatSelection">
+                        <label><i class="fas fa-chair"></i> Select Seats</label>
+                        <div class="car-layout">
+                            <div class="seat" data-seat="1"><i class="fas fa-chair"></i></div>
+                            <div class="seat" data-seat="2"><i class="fas fa-chair"></i></div>
+                            <div class="seat" data-seat="3"><i class="fas fa-chair"></i></div>
+                            <div class="seat" data-seat="4"><i class="fas fa-chair"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group parcel-details">
+                    <label><i class="fas fa-box-open"></i> Parcel Details</label>
+                    <textarea rows="4" placeholder="Describe your parcel contents and special requirements..."></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">
+                    <i class="fas fa-paper-plane"></i> Confirm Booking
+                    <span class="price-estimate">Estimated: LSL 850</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Safe Transport</h3>
+                <p>GPS tracked vehicles with experienced drivers</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>On-Time Delivery</h3>
+                <p>98% on-time delivery record guaranteed</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock customer service</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> +266 62900114</p>
+                <p><i class="fas fa-envelope"></i> vuyisilemosethe@yahoo.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Mohale's Hoek, Lesotho</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Vuhgie Logistics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
